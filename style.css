@@ -1,0 +1,28 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+
+/* Gradient text */
+.text-gradient {
+  background: linear-gradient(45deg, #7f00ff, #00d2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom button */
+.btn-gradient {
+  background: linear-gradient(45deg, #7f00ff, #00d2ff);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #7f00ff;
+}
